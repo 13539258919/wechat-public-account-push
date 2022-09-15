@@ -18,7 +18,7 @@ export const config = {
    * [
    *  {
    *    // 想要发送的人的名字
-   *    name: "老婆0",
+   *    name: "憨憨",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
    *    // 你想对他发送的模板消息的模板ID
@@ -31,7 +31,7 @@ export const config = {
   USERS: [oXrGs6aZCQyt_qA3u_akEvo-15Vo
     {
       // 想要发送的人的名字
-      name: "欧阳憨憨",
+      name: "憨憨",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o0plv51RxAk1h4W0q8Ww4PuvtWaw",
       // 你想对他发送的模板消息的模板ID
@@ -53,7 +53,7 @@ export const config = {
     }, 
     /*
     {
-      name: "老婆2",
+      name: "憨憨",
       id: "",
       useTemplateId: "",
       province: "",
@@ -61,7 +61,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆3", 
+      name: "憨憨", 
       id: "",
       useTemplateId: "",
       province: "",
@@ -108,7 +108,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
    FESTIVALS: [
-    {"type": "生日", "name": "憨憨", "year": "2000", "date": "01-16"},
+    {"type": "生日", "name": "憨憨", "year": "2022", "date": "01-16"},
  
 
   /**
@@ -150,7 +150,10 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  LITERARY_PREFERENCE: "因为太喜欢你，所以看谁都像是情敌。",
+      "申请成为你爱里的永久居民。",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "遇见你，就好像捡到了100斤的运气","
 
 
 }
