@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_ID: "",
+  // APP_ID: "wx977ced8b4604e30a",
 
   // 公众号APP_SECRET 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_SECRET: "",
+  // APP_SECRET: "	keovz2cu5z8UAAc63WcS31AjrSf0Ghf-uNBQJyXOiOw",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -28,7 +28,7 @@ export const config = {
    *   }, 
    * ]
    */
-  USERS: [
+  USERS: [oXrGs6aZCQyt_qA3u_akEvo-15Vo
     {
       // 想要发送的人的名字
       name: "欧阳憨憨",
@@ -48,7 +48,7 @@ export const config = {
       id: "o0plv54YCWE5xO6zWUwkqE2wCE2c",
       useTemplateId: "kU3PiJQxRjY9l6uKOqFxdWQkFViUwdu-NfrPFZynJKE",
       province: "广东",
-      city: "珠海",
+      city: "广州",
       openUrl: "https://baidu.com"
     }, 
     /*
@@ -108,11 +108,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
    FESTIVALS: [
-    {"type": "生日", "name": "欧阳", "year": "2000", "date": "01-13"},
-    {"type": "节日", "name": "元旦纪念日", "year": "2021", "date": "01-01"},
-    //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
-  ],
+    {"type": "生日", "name": "憨憨", "year": "2000", "date": "01-16"},
+ 
 
   /**
    * 限制重要节日的展示条目, 需要填写数字; 
@@ -129,15 +126,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2021-01-01"},
-    // 结婚纪念日
-    //{"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
-    //{"keyword": "ex_day", date: "2022-08-31"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
-  ],
+    {"keyword": "love_day", date: "2022-06-16"},
 
   /** 插槽 */
 
